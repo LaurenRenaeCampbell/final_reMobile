@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ReMobile"
+        tools:targetApi="31">
+        <activity
+            android:name=".map_search"
+            android:exported="false" />
+        <activity
+            android:name=".map_lights"
+            android:exported="false" />
+        <activity
+            android:name=".map_food"
+            android:exported="false" />
+        <activity
+            android:name=".map_parking"
+            android:exported="false" />
+        <activity
+            android:name=".map_options"
+            android:exported="false" />
+        <activity
+            android:name=".c_notification_details"
+            android:exported="false" />
+        <activity
+            android:name=".p_notification_details"
+            android:exported="false" />
+        <activity
+            android:name=".glance_event"
+            android:exported="false" />
+        <activity
+            android:name=".cal_personal_event"
+            android:exported="false" />
+        <activity
+            android:name=".cal_personal"
+            android:exported="false" />
+        <activity
+            android:name=".cal_campus_event"
+            android:exported="false" />
+        <activity
+            android:name=".cal_campus"
+            android:exported="false" />
+        <activity
+            android:name=".cal_academic_event"
+            android:exported="false" />
+        <activity
+            android:name=".cal_academic"
+            android:exported="false" />
+        <activity
+            android:name=".course_announ_details"
+            android:exported="false" />
+        <activity
+            android:name=".courses_assigndetails_page"
+            android:exported="false" />
+        <activity
+            android:name=".courses_assign"
+            android:exported="false" />
+        <activity
+            android:name=".notification_page"
+            android:exported="false" />
+        <activity
+            android:name=".grades"
+            android:exported="false" />
+        <activity
+            android:name=".assignment_details"
+            android:exported="false" />
+        <activity
+            android:name=".class1_grades"
+            android:exported="false" />
+        <activity
+            android:name=".class1_assignments"
+            android:exported="false" />
+        <activity
+            android:name=".class1_info"
+            android:exported="false" />
+        <activity
+            android:name=".class4"
+            android:exported="false" />
+        <activity
+            android:name=".class3"
+            android:exported="false" />
+        <activity
+            android:name=".class2"
+            android:exported="false" />
+        <activity
+            android:name=".class1"
+            android:exported="false" />
+        <activity
+            android:name=".courses_assign_page"
+            android:exported="false" />
+        <activity
+            android:name=".courses_announ_page"
+            android:exported="false" />
+        <activity
+            android:name=".settings_campus"
+            android:exported="false" />
+        <activity
+            android:name=".notifications_campus"
+            android:exported="false" />
+        <activity
+            android:name=".foodpage"
+            android:exported="false" />
+        <activity
+            android:name=".transportationpage"
+            android:exported="false" />
+        <activity
+            android:name=".mappage"
+            android:exported="false" />
+        <activity
+            android:name=".billingpage"
+            android:exported="false" />
+        <activity
+            android:name=".calendarpage"
+            android:exported="false" />
+        <activity
+            android:name=".coursespage"
+            android:exported="false" />
+        <activity
+            android:name=".settings_personal"
+            android:exported="false" />
+        <activity
+            android:name=".notifications_personal"
+            android:exported="false" />
+        <activity
+            android:name=".homepage_campus"
+            android:exported="false" />
+        <activity
+            android:name=".homepage_personal"
+            android:exported="false" />
+        <activity
+            android:name=".loginpage"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
